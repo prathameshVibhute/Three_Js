@@ -13,7 +13,8 @@
     </style>
   </head>
   <body>
-    <canvas id="webgl"></canvas>
+    <!-- Pointer event for canvas is always none, to apply event listener we need to set it to auto -->
+    <canvas id="webgl" style="pointer-events: auto;"></canvas>
     <script type="module" src="/src/router.ts"></script>
   </body>
 </html>

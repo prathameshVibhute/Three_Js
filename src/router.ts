@@ -26,8 +26,8 @@ async function loadProject() {
   } else if(route === '#/particleswave') {
     const module: any = await import('./particlesWave.ts');
     currentProject = module.default();
-  } if(route === '#/particleswave') {
-    const module: any = await import('./particlesWave.ts');
+  } if(route === '#/raycaster') {
+    const module: any = await import('./rayCaster.ts');
     currentProject = module.default();
   }
   else {
